@@ -1,5 +1,5 @@
-import 'package:asdfg/homepage.dart';
-import 'package:asdfg/ui/drawer/drawer_view.dart';
+
+import 'package:asdfg/snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -17,11 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-
-
-      // -------------------------First Screen Call
-      // home: Register(),
-      home: HomePage()
+      home: GetxSnackBar(),
     );
   }
 }
